@@ -7,9 +7,8 @@ Claude Code 用のスキル集です。コードでアニメーション（ブ�
 Claude Opus 5.5 が129種類を作った記録（166試行）からまとめ、新しい8つのお題で Claude Sonnet 5.5 で検証しました。
 
 - Making-of video (Japanese) / 本編: https://youtu.be/yMWuyfUbVKI
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yMWuyfUbVKI?si=RxhGwlDDEPRevUuO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 - All 129 works, uncut (no narration, EN/JA labels) / 129本ノーカット: https://youtu.be/ARzaA4eKRAU
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ARzaA4eKRAU?si=nJWDd19a5F_ObTWD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## What's inside / 中身
 
