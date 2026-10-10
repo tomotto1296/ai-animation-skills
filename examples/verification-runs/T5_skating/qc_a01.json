@@ -1,0 +1,43 @@
+{
+  "video": "T5_skating\\a01\\T5_skating_a01.mp4",
+  "profiles": [],
+  "thresholds": {
+    "black_pix_th": 0.1,
+    "black_d": 0.1,
+    "freeze_d": 0.5,
+    "flicker_th": 10.0,
+    "flash_th": 22.0
+  },
+  "spec": {
+    "expected": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 300
+    },
+    "actual": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 300,
+      "duration": 10.0
+    },
+    "ok": true
+  },
+  "checks": {
+    "black": [],
+    "white": [],
+    "solid": [],
+    "freeze": [],
+    "flicker": []
+  },
+  "warnings": [],
+  "excluded_count": 0,
+  "post_hoc": false,
+  "result": "PASS",
+  "stats": {
+    "yavg_min": 119.2,
+    "yavg_max": 122.4,
+    "max_frame_delta": 0.53
+  }
+}

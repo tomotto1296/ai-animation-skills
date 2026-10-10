@@ -1,0 +1,78 @@
+{
+  "video": "T2_flash\\a02\\T2_flash_a02.mp4",
+  "profiles": [
+    "dark"
+  ],
+  "thresholds": {
+    "black_pix_th": 0.02,
+    "black_d": 0.5,
+    "freeze_d": 0.5,
+    "flicker_th": 10.0,
+    "flash_th": 22.0
+  },
+  "spec": {
+    "expected": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 300
+    },
+    "actual": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 300,
+      "duration": 10.0
+    },
+    "ok": true
+  },
+  "checks": {
+    "black": [],
+    "white": [],
+    "solid": [],
+    "freeze": [],
+    "flicker": [
+      {
+        "start": 1.433,
+        "end": 1.533,
+        "excluded": true,
+        "reason": "カメラのフラッシュの立ち上がり(1.4s)。本体の演出"
+      },
+      {
+        "start": 3.133,
+        "end": 3.2,
+        "excluded": true,
+        "reason": "カメラのフラッシュの立ち上がり(3.1s)。本体の演出"
+      },
+      {
+        "start": 3.5,
+        "end": 3.567,
+        "excluded": true,
+        "reason": "カメラのフラッシュの立ち上がり(3.45s)。本体の演出"
+      },
+      {
+        "start": 5.933,
+        "end": 6.0,
+        "excluded": true,
+        "reason": "カメラのフラッシュの立ち上がり(5.9s)。本体の演出"
+      },
+      {
+        "start": 7.733,
+        "end": 7.8,
+        "excluded": true,
+        "reason": "カメラのフラッシュの立ち上がり(7.7s)。本体の演出"
+      }
+    ]
+  },
+  "warnings": [
+    "意図的な演出として除外した検出: 5 件"
+  ],
+  "excluded_count": 5,
+  "post_hoc": false,
+  "result": "WARN",
+  "stats": {
+    "yavg_min": 29.7,
+    "yavg_max": 131.0,
+    "max_frame_delta": 51.16
+  }
+}

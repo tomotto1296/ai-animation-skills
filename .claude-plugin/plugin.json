@@ -1,0 +1,21 @@
+{
+  "name": "ai-animation-skills",
+  "displayName": "AI Animation Skills",
+  "version": "0.1.0",
+  "description": "Skills for making animations with code (browser Canvas/WebGL, simulation, Blender) and checking them: automatic QC + self-review.",
+  "author": {
+    "name": "RHU AIstudio"
+  },
+  "homepage": "https://github.com/tomotto1296/ai-animation-skills",
+  "repository": "https://github.com/tomotto1296/ai-animation-skills",
+  "license": "MIT",
+  "keywords": [
+    "animation",
+    "video",
+    "qc",
+    "blender",
+    "canvas",
+    "simulation",
+    "creative-coding"
+  ]
+}

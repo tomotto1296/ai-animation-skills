@@ -1,0 +1,37 @@
+{
+ "profiles": [
+  "dark"
+ ],
+ "expect": [
+  {
+   "check": "flicker",
+   "start": 1.35,
+   "end": 1.6,
+   "reason": "カメラのフラッシュの立ち上がり(1.4s)。本体の演出"
+  },
+  {
+   "check": "flicker",
+   "start": 3.05,
+   "end": 3.3,
+   "reason": "カメラのフラッシュの立ち上がり(3.1s)。本体の演出"
+  },
+  {
+   "check": "flicker",
+   "start": 3.4,
+   "end": 3.65,
+   "reason": "カメラのフラッシュの立ち上がり(3.45s)。本体の演出"
+  },
+  {
+   "check": "flicker",
+   "start": 5.85,
+   "end": 6.1,
+   "reason": "カメラのフラッシュの立ち上がり(5.9s)。本体の演出"
+  },
+  {
+   "check": "flicker",
+   "start": 7.65,
+   "end": 7.9,
+   "reason": "カメラのフラッシュの立ち上がり(7.7s)。本体の演出"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+  "video": "T4_lighthouse\\a02\\T4_lighthouse_a02.mp4",
+  "profiles": [],
+  "thresholds": {
+    "black_pix_th": 0.1,
+    "black_d": 0.1,
+    "freeze_d": 0.5,
+    "flicker_th": 10.0,
+    "flash_th": 22.0
+  },
+  "spec": {
+    "expected": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 300
+    },
+    "actual": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 300,
+      "duration": 10.0
+    },
+    "ok": true
+  },
+  "checks": {
+    "black": [],
+    "white": [],
+    "solid": [],
+    "freeze": [],
+    "flicker": []
+  },
+  "warnings": [],
+  "excluded_count": 0,
+  "post_hoc": false,
+  "result": "PASS",
+  "stats": {
+    "yavg_min": 54.6,
+    "yavg_max": 89.6,
+    "max_frame_delta": 1.18
+  }
+}

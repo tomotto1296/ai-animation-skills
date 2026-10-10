@@ -1,0 +1,8 @@
+{
+  "name": "browser-frame-render-scripts",
+  "private": true,
+  "description": "render.mjs が使う playwright-core。python doctor.py --fix で導入できる",
+  "dependencies": {
+    "playwright-core": ">=1.50.0"
+  }
+}

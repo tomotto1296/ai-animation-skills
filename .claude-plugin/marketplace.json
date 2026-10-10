@@ -1,0 +1,14 @@
+{
+  "name": "ai-animation-skills",
+  "description": "Skills for making and checking code-made animations",
+  "owner": {
+    "name": "RHU AIstudio"
+  },
+  "plugins": [
+    {
+      "name": "ai-animation-skills",
+      "source": "./",
+      "description": "Four skills: animation-qc-selfreview, browser-frame-render, simulation-animation, blender-headless"
+    }
+  ]
+}
